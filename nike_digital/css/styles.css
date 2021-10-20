@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+header {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/background.png");
+}
+
+.menu_superior {
+    padding: 5px;
+    background-color: rgba(20, 20, 20, 0.445);
+    color: white;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: rgb(179, 179, 179);
+}
+
+header a:active {
+    color: rgb(90, 90, 90);
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+h2 {
+    color: gray;
+    font-size: 10pt;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    color: gray;
+    font-size: 10pt;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.content {
+    padding: 200px;
+}
+
+.parrafos {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+footer {
+    background-color: black;
+    padding: 200px;
+}
+
+.list_footer {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(179, 179, 179);
+}
+
+footer a:active {
+    color: rgb(44, 44, 44);
+}
+
+.content a {
+    color: gray;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: rgb(87, 87, 87);
+}
+
+.content a:active {
+    color: rgb(44, 44, 44);
+}
+
