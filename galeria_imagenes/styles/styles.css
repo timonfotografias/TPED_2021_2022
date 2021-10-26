@@ -7,24 +7,39 @@ h1 {
     font-size: 3em;
     text-decoration: underline;
     text-align: center;
-    color: black;
+    color: rgb(255, 115, 0);
 }
 h2 {
     font-family: sans-serif;
     font-size: 1em;
     text-decoration: none;
     text-align: center;
-    color: #505050
+    color: #ff9900
+}
+hr {
+    border: 10px solid rgb(255, 115, 0);
+    border-radius: 5px
+}
+a {
+    margin: auto;
+}
+div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 img {
+    object-fit: cover;
     width: 30vw;
+    height: 30vw;
     margin-left: auto;
     margin-right: auto;
 }
 img:hover {
-
+    object-fit: contain;
 }
 
-.byn {
+.byn:hover {
 
 }

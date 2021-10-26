@@ -28,6 +28,7 @@ span img {
     border: black 1px solid;
     margin-top: 5px;
     height: 30px;
+    background: white;
 }
 a {
     background-color: beige;
