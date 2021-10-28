@@ -1,0 +1,54 @@
+:root {
+    --texto: #FFD139;
+    --texto-hover: #C9A632;
+    --fondo: #6B7267;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--fondo);
+    color: var(--texto);
+}
+
+#galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+a {
+    background:#fff;
+    border-radius:5px;
+    text-align: center;
+    max-width: 100%;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    font-size: 1.2em;
+}
+
+a {
+    color: var(--texto);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+figcaption {
+    padding-bottom: 1em;
+}
+
+a img {
+    width:100%;
+    margin-bottom: 1em;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+    
+}
