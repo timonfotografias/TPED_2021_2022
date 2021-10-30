@@ -26,7 +26,7 @@ a {
     background:#fff;
     border-radius:5px;
     text-align: center;
-    max-width: 100%;
+    width: 25%;
     break-inside: avoid;
     page-break-inside: avoid;
     font-size: 1.2em;
@@ -38,7 +38,9 @@ a {
     text-transform: uppercase;
     font-size: 1.2em;
 }
-
+article {
+    width: 100%;
+}
 figcaption {
     padding-bottom: 1em;
 }
