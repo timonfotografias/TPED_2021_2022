@@ -14,23 +14,7 @@
         <div id="galeria">
 
             <!--Display block, with 25%-->
-            <?php
-            $handle = fopen("img/lista.txt", "r");
-            $fileip = fread($handle, filesize("img/lista.txt"));
-            fclose($handle);
-            $array=explode(", ", $fileip);
-
-            /*print_r($array);*/
-
-            for($i = 0; $i < count($array); $i++){
-                echo '<a target="_blank" href="#" id="'.$array[$i].'">';
-                echo '<article>';
-                echo '<img src="img/'.$array[$i].'.jpg" title="'.$array[$i].'" alt="'.$array[$i].'"/>';
-                echo '<figcaption>'.$array[$i].'</figcaption>';
-                echo '</article>';
-                echo '</a>';
-            }
-            ?>
+            <a target="_blank" href="http://localhost/husbandos/#" id="ash"><article><img src="./Husbandos.es_files/ash.jpg" title="ash" alt="ash"><figcaption>ash</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="ele"><article><img src="./Husbandos.es_files/ele.jpg" title="ele" alt="ele"><figcaption>ele</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="lelouch"><article><img src="./Husbandos.es_files/lelouch.jpg" title="lelouch" alt="lelouch"><figcaption>lelouch</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="gojo"><article><img src="./Husbandos.es_files/gojo.jpg" title="gojo" alt="gojo"><figcaption>gojo</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="goku"><article><img src="./Husbandos.es_files/goku.jpg" title="goku" alt="goku"><figcaption>goku</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="juuzou"><article><img src="./Husbandos.es_files/juuzou.jpg" title="juuzou" alt="juuzou"><figcaption>juuzou</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="kirito"><article><img src="./Husbandos.es_files/kirito.jpg" title="kirito" alt="kirito"><figcaption>kirito</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="koro"><article><img src="./Husbandos.es_files/koro.jpg" title="koro" alt="koro"><figcaption>koro</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="levi"><article><img src="./Husbandos.es_files/levi.jpg" title="levi" alt="levi"><figcaption>levi</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="mikey"><article><img src="./Husbandos.es_files/mikey.jpg" title="mikey" alt="mikey"><figcaption>mikey</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="natsu"><article><img src="./Husbandos.es_files/natsu.jpg" title="natsu" alt="natsu"><figcaption>natsu</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="okabe"><article><img src="./Husbandos.es_files/okabe.jpg" title="okabe" alt="okabe"><figcaption>okabe</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="pico"><article><img src="./Husbandos.es_files/pico.jpg" title="pico" alt="pico"><figcaption>pico</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="ray"><article><img src="./Husbandos.es_files/ray.jpg" title="ray" alt="ray"><figcaption>ray</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="saitama"><article><img src="./Husbandos.es_files/saitama.jpg" title="saitama" alt="saitama"><figcaption>saitama</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="senku"><article><img src="./Husbandos.es_files/senku.jpg" title="senku" alt="senku"><figcaption>senku</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="shinji"><article><img src="./Husbandos.es_files/shinji.jpg" title="shinji" alt="shinji"><figcaption>shinji</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="tanjiro"><article><img src="./Husbandos.es_files/tanjiro.jpg" title="tanjiro" alt="tanjiro"><figcaption>tanjiro</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="todoroki"><article><img src="./Husbandos.es_files/todoroki.jpg" title="todoroki" alt="todoroki"><figcaption>todoroki</figcaption></article></a><a target="_blank" href="http://localhost/husbandos/#" id="zoro"><article><img src="./Husbandos.es_files/zoro.jpg" title="zoro" alt="zoro"><figcaption>zoro</figcaption></article></a>
 
             
         </div>
