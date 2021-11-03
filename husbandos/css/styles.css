@@ -88,7 +88,7 @@ header{
 
 .rrss {
     color: var(--texto);
-    width: 8vh;
+    width: 35px;
     height: auto;
     margin-left: 5px;
 }
@@ -101,5 +101,40 @@ footer{
 
 footer hr{
     border: 1px solid var(--texto);
-    margin-bottom: 20px;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+ul {
+    margin-top: 0.5em;
+    color: #8d8d8d;
+    line-height: 1.8em;
+    padding: 0;
+    list-style: disc;
+}
+ul > li:not(:last-child)::after {
+    content: " \00b7";
+}
+footer li {
+    display: inline;
+}
+
+footer a{
+    background: none;
+    text-transform: none;
+    font-size: 1em;
+}
+
+footer p{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.pie{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 5vh;
 }
