@@ -6,28 +6,35 @@ body {
 }
 
 header {
+    position: fixed;
     display:flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 10vh;
     width: 100vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../images/background.png");
 }
 
-.menu_superior {
+header ul{
     padding: 5px;
     background-color: rgba(20, 20, 20, 0.445);
     color: white;
     font-weight: 300;
-    font-size: 3em;
+    font-size: 1.9em;
+}
+
+.img_header{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
 }
 
 header a {
     color: white;
     text-decoration: none;
+}
+
+header li{
+    display: inline;
 }
 
 header a:hover {
@@ -108,3 +115,7 @@ footer a:active {
     color: rgb(44, 44, 44);
 }
 
+* a:hover{
+    position:relative;
+    left: 1vw;
+}
