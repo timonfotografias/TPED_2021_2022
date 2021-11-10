@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li{
+    display: inline;
+    margin-left: 20px;
+    color: gray;
+}
+nav span{
+    position: relative;
+    top: 6.5px;
+    margin-right: 3px;
+}
