@@ -123,3 +123,65 @@ hr{
 .e{
     background-color: #d7d5da;
 }
+footer{
+    width: 100vw;
+}
+.ofertas{
+    padding-left: 5vw;
+    padding-top: 1.5em;
+    padding-bottom: 0.3em;
+    font-size: 0.7em;
+    background-color: #222222;
+}
+.ofertas p{
+    display: inline;
+    color: #ecc644;
+}
+.ofertas ul{
+    display: inline;
+}
+.ofertas li{
+    color: whitesmoke;
+    display: inline;
+}
+.ofertas li:not(:last-child)::after {
+    content: " | ";
+}
+.separador{
+    width: 100vw;
+    background-image: url("../img/barra.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 30px;
+}
+.separador img{
+    position: relative;
+    left: 10vw;
+    height: 30px;
+    width: auto;
+}
+.servicios{
+    box-sizing: border-box;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: #2a2829;
+}
+.servicios div{
+    display: flex;
+    align-items: flex-start;
+}
+.servicios img{
+    margin-right: 10%;
+    width: 40px;
+    height: auto;
+    display: inline;
+}
+.servicios p{
+    color: whitesmoke;
+    font-size: 0.8em;
+    display: inline;
+}
