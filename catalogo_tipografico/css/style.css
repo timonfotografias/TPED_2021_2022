@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Comic+Neue:wght@700&family=Cormorant+Upright:wght@600&family=Libre+Baskerville:wght@700&family=Limelight&family=M+PLUS+1+Code:wght@300&family=Oswald:wght@500&family=Outfit:wght@100&family=Righteous&family=Roboto:wght@100;300&family=Shadows+Into+Light&family=Vibes&family=Yatra+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 2em;
+}
+
+header{
+    text-align: center;
+}
+h1{
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: darkgoldenrod;
+}
+header p{
+    margin-top: 0.3em;
+    font-size: 0.9em;
+    font-weight: 100;
+    color: darkgoldenrod;
+    font-family: 'Roboto', sans-serif;
+}
+header a{
+    color: darkgoldenrod;
+}
+
+main{
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article{
+    cursor: pointer;
+    border: 1px dashed darkgoldenrod;
+    border-radius: 1em;
+    padding: 0.5em;
+    max-width: 400px;
+    margin: 0.5em;
+}
+
+article:hover{
+    position: relative;
+    bottom: 0.2em;
+    box-shadow: 0 0.2em 10px rgb(226, 226, 226);
+}
+
+h3{
+    margin-bottom: 0.5em;
+}
+
+.outfit{
+    font-family: 'Outfit', sans-serif;
+}
+
+.comforter{
+    font-family: 'Comforter Brush', cursive;
+}
+
+.oswald{
+    font-family: 'Oswald', sans-serif;
+}
+
+.shadows{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.righteous{
+    font-family: 'Righteous', cursive;
+}
+
+.limelight{
+    font-family: 'Limelight', cursive;
+}
+
+.yatra{
+    font-family: 'Yatra One', cursive;
+}
+
+.cormorant{
+    font-family: 'Cormorant Upright', serif;
+}
+
+.mplus{
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.comic{
+    font-family: 'Comic Neue', cursive;
+}
+
+.vibes{
+    font-family: 'Vibes', cursive;
+}
+
+.baskerville{
+    font-family: 'Libre Baskerville', serif;
+}
+
+footer{
+    color: darkgoldenrod;
+    width: 100%;
+}
+hr{
+    margin-bottom: 2em;
+    border: 1px solid darkgoldenrod;
+}
+ul{
+    margin-top: 0.5em;
+}
+ul a{
+    color: darkgoldenrod;
+    list-style: none;
+    text-decoration: none;
+}
+li {
+    display: inline;
+}
+ul > li:not(:last-child)::after {
+    content: " \00b7";
+}
