@@ -161,8 +161,33 @@ a:hover img{
       transition: .5s ease;
     }
     
+
+    @keyframes colorines {
+        0%   {background-color: rgba(255, 0, 0, 0.2);}
+        25%  {background-color: rgba(255, 255, 0, 0.2);}
+        50%  {background-color: rgba(0, 0, 255, 0.2);}
+        75% {background-color: rgba(0, 128, 0, 0.2);}
+        100%   {background-color: rgba(255, 0, 0, 0.2);}
+    }
+
     a:hover .overlay {
         height: 100%;
+        animation-name: colorines;
+        animation-duration: 1.5s;
+        animation-direction: normal;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes textosaltando {
+        0% {top: 50%;}
+        100% {top: 30%;}
+    }
+    a:hover .text{
+        animation-name: textosaltando;
+        animation-duration: 0.24s;
+        animation-direction: alternate;
+        animation-iteration-count: 4;
+        animation-timing-function: ease;
     }
     .text {
         white-space: wrap; 
