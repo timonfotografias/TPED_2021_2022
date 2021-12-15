@@ -6,10 +6,16 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Husbandos.es</title>
     <link rel="icon" href="img/favicon.png">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <link rel="stylesheet" href="../lightbox2-2.11.3/dist/css/lightbox.min.css">
 </head>
 
 <body>
+
+    <div class="cookies">
+        <button id="cerrarCookies" onclick="cerrarcookies()">close</button>
+        <p>Este sitio usa cookies, si cierras este mensaje, estás aceptando nuestra política de privacidad y datos.</p>
+    </div>
 
     <header>
         <div class="titulo">
@@ -167,6 +173,11 @@
             </div>
         </div>
     </footer>
+    <script>
+        function cerrarcookies(){
+            $('.cookies').hide();
+        }
+    </script>
     <script src="../lightbox2-2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
 </body>
 

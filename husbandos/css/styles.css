@@ -200,3 +200,17 @@ a:hover img{
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
       }
+.cookies{
+    background-color: blanchedalmond;
+    color: black;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+.cookies button{
+    background-color: cadetblue;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
