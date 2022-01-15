@@ -1,0 +1,102 @@
+body{
+    background-image: url(../res/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+.menu{
+    display: flex;
+    align-content: center;
+    height: 10vh;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+header{
+    position: relative;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.avisobajar{
+    display: block;
+    align-self: flex-end;
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+    animation-name: saltos;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: alternate-reverse;
+}
+@keyframes saltos {
+    0%{top:0px}
+    40%{top:0px}
+    100%{top:-10px}
+}
+.listainline li{
+    display: inline;
+    list-style: none;
+    margin-left: 20px;
+    font-size: larger;
+}
+.menu ul{
+    margin: 30px;
+    float: right;
+}
+.titular{
+    position: relative;
+    left: 50px;
+    display: flex;
+    height: 80%;
+    width: 100%;
+    align-items: center;
+}
+.titular h1{
+    height: max-content;
+    width: 50%;
+    font-size: 6em;
+    color: rgb(66, 66, 66);
+}
+.card{
+    margin: 20px;
+}
+footer{
+    border-radius: 8px 8px 0px 0px;
+    color: white;
+    padding: 1em;
+    background-color: #424242;
+}
+.material-icons-outlined{
+    font-size: 2em;
+    margin-left: 0.3em;
+    float: right;
+}
+footer ul{
+    font-size: small;
+}
+@media (max-width: 576px) {
+    .material-icons-outlined{
+        float: none;
+    }    
+}
+.navbar-light .navbar-toggler{
+    border: 0;
+}
+nav{
+    float: right;
+}
+@media (max-width: 991px) {
+    nav{
+        float: left;
+    }
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: #a7a7a7;
+}
+.avisobajar a{
+    color: #424242;
+}

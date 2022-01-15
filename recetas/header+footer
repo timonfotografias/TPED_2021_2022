@@ -49,75 +49,9 @@
                   </nav>
                 </div>
             </div>
-            <header class="row">
-                <div class="col-12">
-                    
-                    
-                    <div class="titular"><h1>Las mejores recetas de Hyrule</h1></div>
-                    <div class="avisobajar"><a href="#main">Baja para continuar</a></div>
-                </div>
-            </header>
-            <main class="row">
-                <div class="col-12">
-                    <a name="main"></a>
-                    <div class="card">
-                        <div class="row no-gutters">
-                            <div class="col-sm-5">
-                                <img class="card-img" src="/res/img.png" alt="Suresh Dasari Card">
-                            </div>
-                            <div class="col-sm-7">
-                                <div class="d-none d-sm-block card-body">
-                                    <h5 class="card-title">Título alimento</h5>
-                                    <p class="card-text">Descripción alimento</p>
-                                    <a href="#" class="btn btn-primary">Ver receta</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="row no-gutters">
-                            <div class="col-sm-7">
-                                <div class="d-none d-sm-block card-body">
-                                    <h5 class="card-title">Título alimento</h5>
-                                    <p class="card-text">Descripción alimento</p>
-                                    <a href="#" class="btn btn-primary">Ver receta</a>
-                                </div>
-                            </div>
-                            <div class="col-sm-5">
-                                <img class="card-img" src="/res/img.png" alt="Suresh Dasari Card">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="row no-gutters">
-                            <div class="col-sm-5">
-                                <img class="card-img" src="/res/img.png" alt="Suresh Dasari Card">
-                            </div>
-                            <div class="col-sm-7">
-                                <div class="d-none d-sm-block card-body">
-                                    <h5 class="card-title">Título alimento</h5>
-                                    <p class="card-text">Descripción alimento</p>
-                                    <a href="#" class="btn btn-primary">Ver receta</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="row no-gutters">
-                            <div class="col-sm-7">
-                                <div class="d-none d-sm-block card-body">
-                                    <h5 class="card-title">Título alimento</h5>
-                                    <p class="card-text">Descripción alimento</p>
-                                    <a href="#" class="btn btn-primary">Ver receta</a>
-                                </div>
-                            </div>
-                            <div class="col-sm-5">
-                                <img class="card-img" src="/res/img.png" alt="Suresh Dasari Card">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </main>
+            
+
+            
             <footer class="row">
                 <div class="col-sm-8 col-12">
                     <ul class="listainline">
