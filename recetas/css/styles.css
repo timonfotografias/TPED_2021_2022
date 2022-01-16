@@ -100,3 +100,11 @@ footer a:hover{
 .avisobajar a{
     color: #424242;
 }
+.nav-link{
+    font-size: x-large;
+}
+#texto-tarjeta{
+    padding-left: 2em;
+    display: flex;
+    align-items: center;
+}
