@@ -9,7 +9,7 @@ body{
 .menu{
     display: flex;
     align-content: center;
-    height: 10vh;
+    min-height: 10vh;
     background-color: rgba(255, 255, 255, 0.3);
 }
 header{
@@ -77,21 +77,11 @@ footer{
 footer ul{
     font-size: small;
 }
-@media (max-width: 576px) {
-    .material-icons-outlined{
-        float: none;
-    }    
-}
 .navbar-light .navbar-toggler{
     border: 0;
 }
 nav{
     float: right;
-}
-@media (max-width: 991px) {
-    nav{
-        float: left;
-    }
 }
 footer a{
     color: white;
@@ -143,10 +133,71 @@ footer a:hover{
 .card-btn{
     float: right;
 }
+.ingrediente:hover .nombreingrediente{
+    opacity: 1;
+}
+.nombreingrediente{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(119, 119, 85, 0.445);
+}
+.ingrediente{
+    position: relative;
+    margin: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.ingrediente img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.enlaceingrediente *{
+    color: white;
+}
+.nombreingrediente h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(119, 119, 85);
+    padding: 5px;
+}
+.listaingredientes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 2em;
+}
 @media (max-width: 768px) {
-
+    
     .lista-recetas{
         grid-template-columns: auto;
     }
+    .listaingredientes{
+        grid-template-columns: auto auto;
+    }
     
+}
+@media (max-width: 576px) {
+    .material-icons-outlined{
+        float: none;
+    }
+    .listaingredientes{
+        grid-template-columns: auto;
+    }
+}
+@media (max-width: 991px) {
+    nav{
+        float: left;
+    }
 }
