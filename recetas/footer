@@ -18,8 +18,10 @@
                     <a title="EASDA" href="http://easda.es" target="_Blank"><span class="material-icons-outlined">explicit</span></a>
                     
                     
-                    <!--Debería mandar a la pagina de contacto?-->
+                    <!--Debería mandar a la pagina de contacto?
                     <a title="Envíame un correo" href="mailto:rubenalvarado@alu.easda.es" target="_Blank"><span class="material-icons-outlined">mail</span></a>
+                    -->
+                    <a title="Envíame un correo" href="contact.html" target="_Blank"><span class="material-icons-outlined">mail</span></a>
                 </div>
             </footer>
         </div>

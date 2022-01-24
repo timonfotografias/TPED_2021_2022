@@ -10,6 +10,7 @@ body{
     display: flex;
     align-content: center;
     min-height: 10vh;
+    border-radius: 0 0 5px 5px;
     background-color: rgba(255, 255, 255, 0.3);
 }
 header{
@@ -38,6 +39,9 @@ header{
     display: inline;
     list-style: none;
     font-size: larger;
+}
+.listainline li:not(:last-child){
+    margin-right: 1em;
 }
 .listainline{
     padding-left: 1em;
@@ -200,4 +204,47 @@ footer a:hover{
     nav{
         float: left;
     }
+}
+
+.foto_receta{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+article{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+article h1{
+    margin-bottom: 0.5em;
+}
+.titulo_post_receta p{
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 2px 5px;
+    max-width: max-content;
+}
+.etiqueta{
+    position: relative;
+    background-color: #424242;
+    color: white;
+    padding: 2px;
+    border-radius: 3px;
+}
+.etiqueta:hover{
+    cursor: pointer;
+    top: -2px;
+    background-color: #313131;
+}
+.etiqueta:active{
+    top: 1px;
+    text-decoration: underline;
+}
+.contenido_post_receta{
+    margin-top: 20px;
 }
