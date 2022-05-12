@@ -1,0 +1,17 @@
+/*
+Theme Name: Prado
+*/
+h1{
+    color: red;
+}
+.seccion{
+    color: blue;
+}
+nav *{
+    background-color: black;
+    color: white;
+}
+.logo{
+    width: auto;
+    height: 10vh;
+}
