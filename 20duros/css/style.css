@@ -8,12 +8,12 @@ body{
     background-color: #DDD4C3;
 }
 .main{
-    min-height: 100vh;
+    background-origin: border-box;
     background-image: url(../res/background-image.png);
     background-attachment: fixed;
     background-size: contain;
-    background-position: end;
     background-repeat: no-repeat;
+    background-position: right -20px bottom 0px;
 }
 .navbar{
     position: sticky;
