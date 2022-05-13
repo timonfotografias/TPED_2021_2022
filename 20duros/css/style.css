@@ -3,11 +3,13 @@
     --verde: #00B0A6;
     --amarillo: #FAE471;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
 
 body{
     background-color: #DDD4C3;
 }
 .navbar{
+    z-index: 2;
     position: sticky;
     top: 0;
 }
@@ -31,7 +33,9 @@ body{
 .navbar-light .navbar-toggler {
     border-color: rgba(0,0,0,0);
 }
-
+ul{
+    font-family: 'Roboto Slab', sans-serif;
+}
 /*Main*/
 .main{ 
     padding: 10px;
@@ -45,6 +49,23 @@ body{
 
 video{
     border-radius: 10px;
+}
+
+.card{
+    background-color: #0000;
+    border: #0000;
+}
+.card img{
+    max-width: 200px;
+}
+.card-title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: var(--verde);
+    font-size: 2em;
+}
+.card-text{
+    font-family: 'Roboto', sans-serif;
 }
 
 /*footer*/
