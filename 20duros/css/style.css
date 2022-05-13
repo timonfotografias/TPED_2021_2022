@@ -7,14 +7,6 @@
 body{
     background-color: #DDD4C3;
 }
-.main{
-    background-origin: border-box;
-    background-image: url(../res/background-image.png);
-    background-attachment: fixed;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right -20px bottom 0px;
-}
 .navbar{
     position: sticky;
     top: 0;
@@ -38,4 +30,43 @@ body{
 }
 .navbar-light .navbar-toggler {
     border-color: rgba(0,0,0,0);
+}
+
+/*Main*/
+.main{ 
+    padding: 10px;
+    background-origin: border-box;
+    background-image: url(../res/background-image.png);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right -20px bottom 0px;
+}
+
+video{
+    border-radius: 10px;
+}
+
+/*footer*/
+
+li a, li a:hover{
+    color: var(--amarillo);
+    text-decoration: none;
+}
+li a:hover{
+    font-weight: bold;
+}
+footer li{
+    list-style: none;
+    display: inline;
+    margin-right: 1em;
+    align-items: flex-end;
+}
+footer ul{
+    text-align: right;
+}
+footer{
+    padding: 10px 20px;
+    background-color: var(--verde);
+    border-radius: 20px 20px 0 0;
 }
