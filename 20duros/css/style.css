@@ -34,7 +34,7 @@ body{
     border-color: rgba(0,0,0,0);
 }
 ul{
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 /*Main*/
 .main{ 
@@ -47,7 +47,33 @@ ul{
     background-position: right -20px bottom 0px;
 }
 
+.title{
+    color: var(--verde);
+    display: block;
+    text-align: end;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 10em;
+}
+.title:not(#t20){
+    margin-top: -0.9em;
+}
+
+.headText{
+    padding-top: 3em;
+}
+
+.slogan{
+    font-family: 'Roboto Slab', serif;
+    color: var(--verde);
+    font-size: 1.8em;
+}
+hr{
+    border-top: 4px solid var(--amarillo);
+}
+
 video{
+    margin: 2em 0;
     border-radius: 10px;
 }
 
@@ -68,6 +94,47 @@ video{
     font-family: 'Roboto', sans-serif;
 }
 
+#downloadRow img{
+    max-width: 60vw;
+    position: relative;
+    left: -140px;
+}
+@media (max-width: 768px) {
+    #downloadRow img{
+        max-width: 100%;
+        justify-self: center;
+        position: relative;
+        left: 0;
+    }
+}
+
+.downloadText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.btnDownload{
+    background-color: var(--verde);
+    color: white;
+    width: max-content;
+    align-self: center;
+    padding: 0.5em 2em;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px #0004;
+    font-size: 1.5em;
+    font-family: 'Roboto Slab', serif;
+}
+.btnDownload:hover{
+    position: relative;
+    top: 5px;
+    box-shadow: 0 0 5px #0004;
+}
+.subtitle{
+    font-size: 0.7em;
+}
 /*footer*/
 
 li a, li a:hover{

@@ -28,16 +28,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Spot</a>
+                  <a class="nav-link" href="#videoRow">Spot</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Funciones</a>
+                  <a class="nav-link" href="#functionsRow">Funciones</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Descarga</a>
+                  <a class="nav-link" href="#downloadRow">Descarga</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Reseñas</a>
+                    <a class="nav-link" href="#feedbackRow">Reseñas</a>
                 </li>
               </ul>
             </div>
@@ -45,15 +45,20 @@
           <div class="main">
               <div class="container">
                 <div class="row">
-                    Intro en flex
+                    <div class="col-md-5 col-12"><span class="title" id="t20">20</span><span class="title">du</span><span class="title">ros</span></div>
+                    <div class="col-md-4 col-12 headText">
+                        <h5 class="slogan">La cercanía del barrio en tu bolsillo</h5>
+                        <hr>
+                        <p>La nueva app de Bankinter que te hará sentir como en los viejos tiempos, con las facilidades y la cercanía de tu tienda del barrio preferida. Aquí encontrarás distintas funciones con las que ver, controlar y utilizar tu dinero de una forma segura y sencilla. Porque no hay nada más cómodo que llevar la confianza en tu bolsillo.</p>
+                    </div>
                 </div>
-                <div class="row">
+                <div class="row" id="videoRow">
                     <video width="100%" controls>
                         <source type="video/mp4" src="res/video.mp4">
                     </video>
                 </div>
-                <div class="row">
-                    <div class="col-12 col-sm-4">
+                <div class="row" id="functionsRow">
+                    <div class="col-12 col-md-4">
                         <div class="card text-center">
                             <img class="card-img-top mx-auto" src="res/home.png" alt="Card image cap">
                             <div class="card-body">
@@ -62,7 +67,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-4">
+                    <div class="col-12 col-md-4">
                         <div class="card text-center">
                             <img class="card-img-top mx-auto" src="res/operate.png" alt="Card image cap">
                             <div class="card-body">
@@ -71,7 +76,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-12">
+                    <div class="col-md-4 col-12">
                         <div class="card text-center">
                             <img class="card-img-top mx-auto" src="res/help.png" alt="Card image cap">
                             <div class="card-body">
@@ -81,8 +86,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">descarga la app</div>
-                <div class="row">Reseñas</div>
+                <div class="row" id="downloadRow">
+                    <div class="col-md-6 col-12">
+                        <img src="res/mockup.png" alt="mockup">
+                    </div>
+                    <div class="col-md-6 col-12 downloadText">
+                        <p class="card-title">¡Descarga con un click!</p>
+                        <p class="btnDownload">Descargar</p>
+                        <p class="subtitle">Disponible en AppStore, AppGallery y Google play</p>
+                    </div>
+                </div>
+                <div class="row" id="feedbackRow">Reseñas</div>
               </div>
             </div>
             <footer>
