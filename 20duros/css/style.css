@@ -155,6 +155,7 @@ footer ul{
 }
 footer{
     padding: 10px 20px;
+    padding-top: 2em;
     background-color: var(--verde);
     border-radius: 20px 20px 0 0;
 }
@@ -176,7 +177,7 @@ footer{
 .popup .content {
     align-items: center;
     z-index: 4;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
@@ -199,4 +200,9 @@ footer{
     display: block;
     width: 300px;
     max-width: 100%;
+}
+.carousel{
+    width: 100%;
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
