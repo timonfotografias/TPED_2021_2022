@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+main{
+    background-color: rgb(217, 217, 217);
+}
+
+header{
+    width: 100vw;
+    background-color: white;
+}
+
+header .row{
+    justify-content: center;
+}
+
+.menu ul{
+    margin: 0;
+}
+
+.menu li{
+    margin-bottom: 0;
+    display: inline;
+    list-style: none;
+    padding: 2em;
+    padding-bottom: 0;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#selected{
+    box-sizing: border-box;
+    border-bottom: 2px solid red;
+}
+
+.menu img{
+    max-height: 1em;
+}
+
+main{
+    padding: 2em;
+}
+
+main .card{
+    margin: 3em;
+    background-color: white;
+}
+
+h5{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.datenumber{
+    font-size: 0.8em;
+    color: gray;
+}
+
+.author{
+    font-size: 0.8;
+    font-weight: bold;
+}
+
+.resumen{
+    text-align: left;
+}
+
+main a{
+    color: red;
+    text-decoration: none;
+}
+
+footer{
+    width: 100vw;
+    background-color: white;
+    padding: 10px 30px;
+}
